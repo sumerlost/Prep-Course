@@ -128,6 +128,7 @@ function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
   var a = x%y;
+  return a;
 }
 
 function esPar(num) {
@@ -210,11 +211,13 @@ function esPositivo(numero) {
   //Si el número es 0, devuelve false
   if (numero >0)
   {
-    return "es positivo";
+    var c = "es positivo";
+    return c;
   }
   else if (numero < 0)
   {
-    return "es negativo";
+    var c = "es negativo";
+    return c;
   }
   else if (numero == 0)
   {
@@ -242,12 +245,16 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
+  var c = "Hola" + nombre;
+  return c;
   
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
+  var area = alto * ancho;
+  return area;
   
 }
 
@@ -255,6 +262,8 @@ function obtenerAreaRectangulo(alto, ancho) {
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
+  var per = lado *4;
+  return per;
   
 }
 
@@ -262,6 +271,7 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
+  
 
 }
 
